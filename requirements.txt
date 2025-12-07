@@ -1,0 +1,17 @@
+# Основные зависимости для FastAPI приложения
+
+# FastAPI и сервер
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# OpenAI API
+openai>=1.54.0
+
+# HTTP клиент для запросов к Currents API
+httpx>=0.27.2
+
+# Работа с переменными окружения
+python-dotenv>=1.0.1
+
+# Валидация данных (последняя версия с поддержкой Python 3.13)
+pydantic>=2.9.2
